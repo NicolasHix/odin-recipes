@@ -33,10 +33,29 @@ a.back-button:hover {
     background-color: #138e54;
 }
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 10px 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;               /* remove body margin */
+  padding: 20px;
+  background-color: #e7f49d;
+  text-align: center;
+  border-radius: 15px;     /* rounded corners */
+  min-height: 100vh;       /* full viewport height */
+  box-sizing: border-box;  /* include padding in height */
+}
+ul { 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+html {
+    background-color: white; /* set background color for the entire page */
+    padding: 10px;
+}
+#egg-salad-page {
+    background-color: lightgoldenrodyellow;
+    border-radius: 15px;
     padding: 20px;
-    background-color: #e7f49d;
     text-align: center;
+
 }
