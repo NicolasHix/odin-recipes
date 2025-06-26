@@ -20,3 +20,23 @@ a.button-link:hover {
     border-radius: 10px;
     margin-top: 20px;
 }
+a.back-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+a.back-button:hover {
+    background-color: #138e54;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 10px 0;
+    padding: 20px;
+    background-color: #e7f49d;
+    text-align: center;
+}
