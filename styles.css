@@ -35,14 +35,15 @@ a.back-button:hover {
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  margin: 0;               /* remove body margin */
+  margin: 0;
   padding: 20px;
-  background-color: #e7f49d;
+  background-color: lightblue; /* light background */
   text-align: center;
-  border-radius: 15px;     /* rounded corners */
-  min-height: 100vh;       /* full viewport height */
-  box-sizing: border-box;  /* include padding in height */
+  border-radius: 15px;
+  min-height: 100vh;
+  box-sizing: border-box;
 }
+
 ul { 
     list-style: none;
     padding: 0;
@@ -58,4 +59,29 @@ html {
     padding: 20px;
     text-align: center;
 
+}
+img.egg-img {
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
+img.soup-img, img.guac-img, img.egg-img {
+  order: 1;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
+#guacamole-page {
+    background-color: #1ace5c; /* light blue background */
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+#tomato-soup-page {
+    background-color: tomato; /* light blue background */
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
 }
